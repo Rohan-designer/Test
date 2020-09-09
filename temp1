@@ -1,0 +1,86 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 05:09 ?        00:00:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root         2     0  0 05:09 ?        00:00:00 [kthreadd]
+root         4     2  0 05:09 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 05:09 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 05:09 ?        00:00:00 [ksoftirqd/0]
+root         8     2  0 05:09 ?        00:00:00 [rcu_sched]
+root         9     2  0 05:09 ?        00:00:00 [rcu_bh]
+root        10     2  0 05:09 ?        00:00:00 [migration/0]
+root        11     2  0 05:09 ?        00:00:00 [watchdog/0]
+root        12     2  0 05:09 ?        00:00:00 [cpuhp/0]
+root        14     2  0 05:09 ?        00:00:00 [kdevtmpfs]
+root        15     2  0 05:09 ?        00:00:00 [netns]
+root        16     2  0 05:09 ?        00:00:00 [kworker/u30:1]
+root        21     2  0 05:09 ?        00:00:00 [xenbus]
+root        22     2  0 05:09 ?        00:00:00 [xenwatch]
+root       172     2  0 05:09 ?        00:00:00 [khungtaskd]
+root       173     2  0 05:09 ?        00:00:00 [oom_reaper]
+root       174     2  0 05:09 ?        00:00:00 [writeback]
+root       176     2  0 05:09 ?        00:00:00 [kcompactd0]
+root       177     2  0 05:09 ?        00:00:00 [ksmd]
+root       178     2  0 05:09 ?        00:00:00 [khugepaged]
+root       179     2  0 05:09 ?        00:00:00 [crypto]
+root       180     2  0 05:09 ?        00:00:00 [kintegrityd]
+root       182     2  0 05:09 ?        00:00:00 [kblockd]
+root       535     2  0 05:09 ?        00:00:00 [md]
+root       538     2  0 05:09 ?        00:00:00 [edac-poller]
+root       543     2  0 05:09 ?        00:00:00 [watchdogd]
+root       684     2  0 05:09 ?        00:00:00 [kauditd]
+root       690     2  0 05:09 ?        00:00:00 [kswapd0]
+root       822     2  0 05:09 ?        00:00:00 [kthrotld]
+root       872     2  0 05:09 ?        00:00:00 [kstrp]
+root       900     2  0 05:09 ?        00:00:00 [ipv6_addrconf]
+root      1738     2  0 05:09 ?        00:00:00 [ata_sff]
+root      1745     2  0 05:09 ?        00:00:00 [scsi_eh_0]
+root      1755     2  0 05:09 ?        00:00:00 [scsi_tmf_0]
+root      1759     2  0 05:09 ?        00:00:00 [scsi_eh_1]
+root      1761     2  0 05:09 ?        00:00:00 [scsi_tmf_1]
+root      1765     2  0 05:09 ?        00:00:00 [kworker/u30:2]
+root      1855     2  0 05:09 ?        00:00:00 [xfsalloc]
+root      1856     2  0 05:09 ?        00:00:00 [xfs_mru_cache]
+root      1858     2  0 05:09 ?        00:00:00 [xfs-buf/xvda1]
+root      1859     2  0 05:09 ?        00:00:00 [xfs-data/xvda1]
+root      1860     2  0 05:09 ?        00:00:00 [xfs-conv/xvda1]
+root      1861     2  0 05:09 ?        00:00:00 [xfs-cil/xvda1]
+root      1862     2  0 05:09 ?        00:00:00 [xfs-reclaim/xvd]
+root      1863     2  0 05:09 ?        00:00:00 [xfs-log/xvda1]
+root      1864     2  0 05:09 ?        00:00:00 [xfs-eofblocks/x]
+root      1865     2  0 05:09 ?        00:00:06 [xfsaild/xvda1]
+root      1866     2  0 05:09 ?        00:00:00 [kworker/0:1H]
+root      1932     1  0 05:09 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root      2077     1  0 05:09 ?        00:00:00 /usr/sbin/lvmetad -f
+root      2235     2  0 05:09 ?        00:00:00 [ena]
+root      2571     1  0 05:09 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root      2647     2  0 05:09 ?        00:00:00 [rpciod]
+root      2648     2  0 05:09 ?        00:00:00 [xprtiod]
+root      2651     1  0 05:09 ?        00:00:00 /sbin/auditd
+dbus      2680     1  0 05:09 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+rpc       2683     1  0 05:09 ?        00:00:00 /sbin/rpcbind -w
+chrony    2688     1  0 05:09 ?        00:00:00 /usr/sbin/chronyd
+root      2689     1  0 05:09 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root      2690     1  0 05:09 ?        00:00:00 /sbin/rngd -f
+libstor+  2693     1  0 05:09 ?        00:00:00 /usr/bin/lsmd -d
+root      2711     1  0 05:09 ?        00:00:00 /usr/sbin/gssproxy -D
+root      2905     1  0 05:09 ?        00:00:00 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid -H ip-172-31-40-183 eth0
+root      3035     1  0 05:09 ?        00:00:00 /sbin/dhclient -6 -nw -lf /var/lib/dhclient/dhclient6--eth0.lease -pf /var/run/dhclient6-eth0.pid eth0 -H ip-172-31-40-183
+root      3090     1  0 05:09 ?        00:00:00 sendmail: accepting connections
+smmsp     3107     1  0 05:09 ?        00:00:00 sendmail: Queue runner@01:00:00 for /var/spool/clientmqueue
+root      3162     1  0 05:09 ?        00:00:00 /usr/bin/amazon-ssm-agent
+root      3164     1  0 05:09 ?        00:00:02 /usr/sbin/rsyslogd -n
+root      3176     1  0 05:09 ?        00:00:00 /usr/sbin/atd -f
+root      3183     1  0 05:09 ?        00:00:00 /usr/sbin/crond -n
+root      3237     1  0 05:09 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200,38400,9600 ttyS0 vt220
+root      3238     1  0 05:09 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      3290     1  0 05:09 ?        00:00:00 /usr/sbin/sshd -D
+root      3316     1  0 05:09 ?        00:00:00 /usr/sbin/acpid
+root      5101  3290  0 08:16 ?        00:00:00 sshd: ec2-user [priv]
+ec2-user  5135  5101  0 08:16 ?        00:00:01 sshd: ec2-user@pts/1
+ec2-user  5136  5135  0 08:16 pts/1    00:00:00 -bash
+ec2-user  5831  5136  0 08:56 pts/1    00:00:00 sh rev.sh intel_1
+ec2-user  5835  5831  0 08:56 pts/1    00:00:00 sed -n 5 p
+root      8887     2  0 17:13 ?        00:00:00 [kworker/0:2]
+root      8894     2  0 17:18 ?        00:00:00 [kworker/0:0]
+root      8965     2  0 17:23 ?        00:00:00 [kworker/0:1]
+ec2-user  8990  5136  0 17:25 pts/1    00:00:00 sh service.sh
+ec2-user  8991  8990  0 17:25 pts/1    00:00:00 ps -ef
